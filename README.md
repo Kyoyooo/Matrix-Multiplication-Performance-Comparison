@@ -14,7 +14,6 @@ The goal is to demonstrate the performance tradeoffs between different programmi
 3. **README.md** - Instructions for running the code
 
 ## Prerequisites
-
 Before you begin, ensure you have the following tools installed:
 
 1.  **A C Compiler**: `gcc` is required for the automated compilation step.
@@ -38,8 +37,8 @@ pip install jupyterlab pandas numpy matplotlib seaborn
 ### Running the Analysis
 Follow these steps to execute the performance comparison:
 
-1. **Clone or Download the Project**: Ensure that **matrix_mult.c** and **report.ipynb** are in the same directory.
-2. **Launch Jupyter**: Open a terminal, navigate to the project directory, and start **Jupyter**:
+1. **Clone or Download the Project**: Ensure that `matrix_mult.c` and `report.ipynb` are in the same directory.
+2. **Launch Jupyter**: Open a terminal, navigate to the project directory, and start Jupyter:
 
 ```bash
 jupyter lab
@@ -52,8 +51,8 @@ jupyter notebook
 ```
 
 3. **Run the Notebook**:
-- Open the **report.ipynb** file in your browser.
-- Execute all the cells in the notebook from top to bottom by selecting "Run" > "Run All Cells".
+- Open the `report.ipynb` file in your browser.
+- Execute all the cells in the notebook from top to bottom by selecting `Run" > "Run All Cells` or `Kernel` - `Restart & Run All`
 
 The notebook's timing framework is fully automated and will perform the following actions:
 - Compile the matrix_mult.c file into an executable named matrix_mult.
