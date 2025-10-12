@@ -52,7 +52,7 @@ jupyter notebook
 
 3. **Run the Notebook**:
 - Open the `report.ipynb` file in your browser.
-- Execute all the cells in the notebook from top to bottom by selecting `Run" > "Run All Cells` or `Kernel` - `Restart & Run All`
+- Execute all the cells in the notebook from top to bottom by selecting `Run" > "Run All Cells` or `Kernel` - `Restart Kernel & Run All Cells...`
 
 The notebook's timing framework is fully automated and will perform the following actions:
 - Compile the matrix_mult.c file into an executable named matrix_mult.
