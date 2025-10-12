@@ -44,10 +44,3 @@ jupyter notebook
 3. **Run the Notebook**:
 - Open the `report.ipynb` file in your browser.
 - Execute all the cells in the notebook from top to bottom by selecting `Run" > "Run All Cells` or `Kernel` - `Restart Kernel & Run All Cells...`
-
-The notebook's timing framework is fully automated and will perform the following actions:
-- Compile the `matrix_mult.c` file into an executable file named `matrix_mult`. 
-- Run the performance tests for all three implementations across a range of matrix sizes.
-- Collect and average the timing data.
-- Generate a summary table and plots to visualize the results.
-- Automatically remove the compiled C executable file (`matrix_mult`) upon completion to keep the directory clean.
