@@ -33,6 +33,7 @@ Firstly, you have to install the required Python libraries using `pip`:
 
 ```bash
 pip install jupyterlab pandas numpy matplotlib seaborn
+```
 
 ### Running the Analysis
 Follow these steps to execute the performance comparison:
@@ -42,11 +43,13 @@ Follow these steps to execute the performance comparison:
 
 ```bash
 jupyter lab
+```
 
 or
 
 ```bash
 jupyter notebook
+```
 
 3. **Run the Notebook**:
 - Open the report.ipynb file in your browser.
