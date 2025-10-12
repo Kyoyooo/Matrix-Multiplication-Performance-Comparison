@@ -7,11 +7,11 @@ This project provides a comparison of runtime performance of matrix multiplicati
 
 The goal is to demonstrate the performance tradeoffs between different programming approaches and shows why numerical computing libraries are essential for Python.
 
-## Directory Structure
+## Deliverables
 .
-├── matrix_mult.c # The C source code for matrix multiplication
-├── report.ipynb # The main Jupyter Notebook with all Python code (inline), timing results, visualizations and written analysis
-└── README.md # Instructions for running the code
+1. **matrix_mult.c** - The C source code for matrix multiplication
+2. **report.ipynb** - The main Jupyter Notebook with all Python code (inline), timing results, visualizations and written analysis
+3. **README.md** - Instructions for running the code
 
 ## Prerequisites
 
@@ -38,8 +38,8 @@ pip install jupyterlab pandas numpy matplotlib seaborn
 ### Running the Analysis
 Follow these steps to execute the performance comparison:
 
-1. **Clone or Download the Project**: Ensure that matrix_mult.c and report.ipynb are in the same directory.
-2. **Launch Jupyter**: Open a terminal, navigate to the project directory, and start Jupyter:
+1. **Clone or Download the Project**: Ensure that **matrix_mult.c** and **report.ipynb** are in the same directory.
+2. **Launch Jupyter**: Open a terminal, navigate to the project directory, and start **Jupyter**:
 
 ```bash
 jupyter lab
@@ -52,7 +52,7 @@ jupyter notebook
 ```
 
 3. **Run the Notebook**:
-- Open the report.ipynb file in your browser.
+- Open the **report.ipynb** file in your browser.
 - Execute all the cells in the notebook from top to bottom by selecting "Run" > "Run All Cells".
 
 The notebook's timing framework is fully automated and will perform the following actions:
