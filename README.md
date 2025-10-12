@@ -15,16 +15,11 @@ The goal is to demonstrate the performance tradeoffs between different programmi
 Before you begin, ensure you have the following tools installed:
 1.  **A C Compiler**: `gcc` is required for the automated compilation step.
 2.  **Python 3.x**: Python programming language and runtime.
-3.  **Jupyter Notebook** or **Jupyter Lab**
-4.  **The following Python libraries**:
-    *   `pandas`
-    *   `numpy`
-    *   `matplotlib`
-    *   `seaborn`
+3.  **Git**: Version control system
 
 ## Getting started 
-### Libraries installation
-Firstly, you have to install the required Python libraries using `pip`:
+### Installation
+Firstly, you install these required Python dependencies `pandas`, `numpy`, `matplotlib`, `seaborn` and `jupyterlab` by using `pip`:
 ```bash
 pip install jupyterlab pandas numpy matplotlib seaborn
 ```
@@ -32,6 +27,10 @@ pip install jupyterlab pandas numpy matplotlib seaborn
 ### Running the Analysis
 Follow these steps to execute the performance comparison:
 1. **Clone or Download the Project**: Ensure that `matrix_mult.c` and `report.ipynb` are in the same directory.
+```bash
+git clone https://github.com/Kyoyooo/Matrix-Multiplication-Performance-Comparison.git
+```
+
 2. **Launch Jupyter**: Open a terminal, navigate to the project directory, and start Jupyter:
 ```bash
 jupyter lab
