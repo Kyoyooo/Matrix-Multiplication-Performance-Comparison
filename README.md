@@ -14,7 +14,7 @@ The goal is to demonstrate the performance tradeoffs between different programmi
 ## Prerequisites
 Before you begin, ensure you have the following tools installed:
 1.  **A C Compiler**: `gcc` is required for the automated compilation step.
-2.  **Python 3.x**: Python programming language and runtime (will be installed via conda)
+2.  **Python 3.x**: Python programming language and runtime.
 3.  **Jupyter Notebook** or **Jupyter Lab**
 4.  **The following Python libraries**:
     *   `pandas`
@@ -46,8 +46,8 @@ jupyter notebook
 - Execute all the cells in the notebook from top to bottom by selecting `Run" > "Run All Cells` or `Kernel` - `Restart Kernel & Run All Cells...`
 
 The notebook's timing framework is fully automated and will perform the following actions:
-- Compile the matrix_mult.c file into an executable named matrix_mult.
+- Compile the `matrix_mult.c` file into an executable file named `matrix_mult`. 
 - Run the performance tests for all three implementations across a range of matrix sizes.
 - Collect and average the timing data.
 - Generate a summary table and plots to visualize the results.
-- Automatically remove the compiled C executable (matrix_mult) upon completion to keep the directory clean.
+- Automatically remove the compiled C executable file (`matrix_mult`) upon completion to keep the directory clean.
