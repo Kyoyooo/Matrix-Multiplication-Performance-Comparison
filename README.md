@@ -1,6 +1,7 @@
 # Lab 01 - Data scraping
 File README.md này trình bày cách setup môi trường và cách thực thi mã nguồn cho việc cào dữ liệu từ các bài báo trên arXiv. Đồ án này có cấu trúc như sau: 
 
+```
 23120266/
 │-- src/ # Thư mục chứa mã nguồn
 │ │-- 23120266.ipynb
@@ -8,6 +9,7 @@ File README.md này trình bày cách setup môi trường và cách thực thi 
 │
 │-- README.md # Hướng dẫn cách setup môi trường và cách thực thi mã nguồn
 │-- Report.docx # Báo cáo
+```
 
 ## Setup môi trường 
 1. Đầu tiên, mở Terminal lên và điều hướng vào thư mục chứa đồ án 
