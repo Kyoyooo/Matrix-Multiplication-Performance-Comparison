@@ -1,53 +1,45 @@
-# Lab 01 - Data scraping
-File README.md này trình bày cách setup môi trường và cách thực thi mã nguồn cho việc cào dữ liệu từ các bài báo trên arXiv. Đồ án này có cấu trúc như sau: 
+# Matrix Multiplication Performance Comparison
+This project provides a comparison of runtime performance of matrix multiplication across three implementations:
+1.  **Pure C** - Low-level compiled language.
+2.  **Pure Python** - High-level interpreted language with native loops.
+3.  **NumPy** - Python with optimized numerical library.
 
-```
-23120266/
-│-- src/ # Thư mục chứa mã nguồn
-│ │-- 23120266.ipynb
-│ │-- requirements.txt # Chứa các dependencies để cài đặt vào môi trường
-│
-│-- README.md # Hướng dẫn cách setup môi trường và cách thực thi mã nguồn
-│-- Report.docx # Báo cáo
-```
+The goal is to demonstrate the performance tradeoffs between different programming approaches and shows why numerical computing libraries are essential for Python.
 
-## Setup môi trường 
-1. Đầu tiên, mở Terminal lên và điều hướng vào thư mục chứa đồ án 
+## Deliverables
+1. **matrix_mult.c** - The C source code for matrix multiplication
+2. **report.ipynb** - The main Jupyter Notebook with all Python code (inline), timing results, visualizations and written analysis
+3. **README.md** - Instructions for running the code
+
+## Prerequisites
+Before you begin, ensure you have the following tools installed:
+1.  **A C Compiler**: `gcc` is required for the automated compilation step.
+2.  **Python 3.x**: Python programming language and runtime.
+3.  **Git**: Version control system
+
+## Getting started 
+### Installation
+Firstly, you install these required Python dependencies `pandas`, `numpy`, `matplotlib`, `seaborn` and `jupyterlab` by using `pip`:
 ```bash
-cd đường/dẫn/vào/23120266
+pip install jupyterlab pandas numpy matplotlib seaborn
 ```
 
-2. Tiếp theo là khởi tạo môi trường conda với phiên bản Python 3.10 
+### Running the Analysis
+Follow these steps to execute the performance comparison:
+1. **Clone or Download the Project**: Ensure that `matrix_mult.c` and `report.ipynb` are in the same directory.
 ```bash
-conda create -n datasci_lab01 python=3.10
+git clone https://github.com/Kyoyooo/Matrix-Multiplication-Performance-Comparison.git
 ```
 
-3. Sau đó kích hoạt môi trường conda 
+2. **Launch Jupyter**: Open a terminal, navigate to the project directory, and start Jupyter:
 ```bash
-conda activate 
+jupyter lab
 ```
-
-4. Di chuyển đến thư mục src
-```bash
-cd src  
-```
-
-5. Cài các dependencies từ file requirement.txt 
-```bash
-pip install -r requirement.txt 
-```
-
-6. Cài gói IPykernel từ môi trường conda `datasci_lab01` cho Jupyter Notebook
-```bash
-python -m ipykernel install --user --name datasci_lab01 --display-name "Python (datasci_lab01)"
-```
-
-## Thực thi mã nguồn 
-1. Mở Jupyter Notebook
+or
 ```bash
 jupyter notebook
 ```
 
-2. Mở file `23120266.ipynb` lên, trên giao diện Jupyter Notebook này, vào `Kernel` > `Select Change kernel` > Chọn `Python (datasci_lab01)`
-
-3. Cuối cùng, vào `Run" > "Run All Cells` or `Kernel` - `Restart Kernel & Run All Cells...` để chạy chương trình từ trên xuống dưới
+3. **Run the Notebook**:
+- Open the `report.ipynb` file in your browser.
+- Execute all the cells in the notebook from top to bottom by selecting `Run" > "Run All Cells` or `Kernel` - `Restart Kernel & Run All Cells...`
